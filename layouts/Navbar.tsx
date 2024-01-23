@@ -23,12 +23,7 @@ const Navbar = (props: Props) => {
     <div className="flex justify-between py-6 items-center">
       {/* title */}
       <Link href="/">
-        <h1
-          className="text-xl font-bold  dark:border-radius: 65px;
-background: #322f2f;
-box-shadow:  -19px 19px 37px #141313,
-             19px -19px 37px #504b4b; p-2 rounded-xl hover:shadow-md transition duration-300 ease-in-out"
-        >
+        <h1 className="text-xl font-bold dark:border-white border border-black rounded-sm; background: #322f2f; box-shadow:  -19px 19px 37px #141313,19px -19px 37px #504b4b; p-2 rounded-xl hover:shadow-md transition duration-300 ease-in-out">
           Personal Dev
         </h1>
       </Link>

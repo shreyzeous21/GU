@@ -42,8 +42,10 @@ function Footer({}: Props) {
           Linkedin
         </ExternalLink>
         <div className="mt-8 text-center">
-        <p>&copy; 2024 Personal Blog. All Rights Reserved.</p>
-    </div>
+          <p className="border-2 rounded-xl dark:border-white border-black p-2 bg-white dark:bg-black dark:text-white ">
+            &copy; 2024 Personal Blog. All Rights Reserved.
+          </p>
+        </div>
       </div>
     </div>
   );
