@@ -27,7 +27,6 @@ const Navbar = (props: Props) => {
           Personal Dev
         </h1>
       </Link>
-
       <button
         aria-label="Toogle Dark Mode"
         type="button"
